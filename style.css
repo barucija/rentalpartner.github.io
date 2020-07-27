@@ -43,7 +43,7 @@ header {
 }
 
 .server {
-    width: 70%;
+    width: 50%;
     margin: 2em auto 2em;
 }
 
@@ -164,10 +164,14 @@ nav ul li a:hover {
     padding-top: 3em;
 }
 
-@media only screen and (min-width: 650px)  {
 
+@media screen and (max-width: 430px)  {
+
+    .vrh{
+        height: 100vh;
+    }
     .server {
-        width: 40%;
+        width: 50%;
     }
 
     h1 {
@@ -176,7 +180,7 @@ nav ul li a:hover {
     }
 
     .subhead {
-        font-size: 1.2em;
+        font-size: 1em;
         margin-bottom: 12%;
     }
 
@@ -214,10 +218,10 @@ nav ul li a:hover {
     nav ul {
         width: 40%;
     }
-
+    
 }
 
-@media only screen and (min-width: 875px)  {
+@media screen and (min-width: 431px) and (max-width: 960px)  {
 
     .subhead {
         margin-bottom: 15%;
