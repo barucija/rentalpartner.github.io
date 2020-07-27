@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <title>RENTAL PARTNER</title>
+    <link rel="icon" href="https://i.ibb.co/vspV3SQ/PROBA.png" type="image/x-icon">
+
+
+    <body>
+
+    <div class="container">
+
+        <header>
+  
+        <img src="rp_upper_logo_fixed_svg.svg" alt="rp logo" class="logo">
+
+        <nav>
+
+            <a href="#" class="hide-desktop">
+                <img src="ham.svg" alt="toggle menu on mobile" class="menu-mobile" id="menu-mobile">
+            </a>
+
+            <ul class="show-desktop hide-mobile" id="nav">
+                <li id="exit" class="exit-btn hide-desktop"><img src="exit.svg" alt="exit menu"></li>
+                <li><a href="#pocetna">početna</a></li>
+                <li><a href="#usluge">usluge</a></li>
+                <!-- <li><a href="#onama">o nama</a></li> -->
+                <li><a href="#onama">kontakt</a></li>
+            </ul>
+        </nav>
+      </header>
+
+      <section id="pocetna">
+
+        <img src="RENTAL_PARTNER_PREVIEW_LOGO.svg" alt="sever graphic" class="server">
+
+        <h1>RENTAL PARTNER</h1>
+
+        <p class="subhead">AUDIO SISTEMI • BINSKA/STAGE OPREMA • LED DISPLAY • LED DEKORATIVNA RASVJETA</p>
+
+        <img src="vox-player.gif" alt="scroll down" class="scroll hide-mobile show-desktop">
+
+      </section>
+
+    </div>
+
+    <div class="kartice" id="usluge">
+        
+        <div class="card-group">
+            <div class="card text-white bg-dark mb-3">
+              <img src="speaker.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">AUDIO <br>SISTEMI</h5>
+              </div>
+            </div>
+            <div class="card text-white bg-dark mb-3">
+              <img src="stage.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">BINSKA/STAGE <br>OPREMA</h5>
+              </div>
+            </div>
+            <div class="card text-white bg-dark mb-3">
+              <img src="display.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">LED <br>DISPLAY</h5>
+              </div>
+            </div>
+            <div class="card text-white bg-dark mb-3">
+                <img src="led light.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">LED DEKORATIVNA <br>RASVJETA</h5>
+                </div>
+              </div>
+              
+          </div>
+
+        </div>
+
+    <iframe id="onama" class="map map-gray-container" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.4923267300715!2d17.919088815631707!3d44.19476582525955!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475ee217f3b67c23%3A0x551cf6e7f579d970!2zQmlsbWnFocSHZSA4MSwgWmVuaWNhIDcyMDAw!5e1!3m2!1sen!2sba!4v1595730891376!5m2!1sen!2sba" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+    <footer id="kontakt">
+        
+        <div class="footer-container">
+
+            <div class="container">
+
+                <div class="text-padding">
+
+                    <a href="#">
+                        <img src="rp_logo_white.svg" class="logo" alt="logo">
+                    </a>    
+
+                    <p class="address">Bilimišće 81 (iza Tehničke škole)<br>72000, Zenica <br> Kontakt telefon: 0038761846842 <br> E-mail: rentalpartner.business@gmail.com</p>
+
+                    <ul class="footer-links">
+                        
+                        <li><a href="https://www.facebook.com/rentalpartnerzenica">
+                            <img src="fb.png" alt=""></a>
+                        </li>
+                        <li><a href="https://www.instagram.com/rental_partner/">
+                            <img src="ig.png" alt=""></a>
+                        </li>
+                        <li><a href="https://www.youtube.com/channel/UCQWeTVfRbjF3ul-6clnXx5Q">
+                            <img src="youtube.png" alt=""></a>
+                        </li>
+                        <li><a href="https://www.linkedin.com/company/rentalpartner">
+                            <img src="linkedin.png" alt=""></a>
+                        </li>
+
+                    </ul>
+                    
+                </div>
+                    
+            </div>
+
+        </div>
+
+    </footer>
+
+    
+
+    <script>
+
+        var menu = document.getElementById('menu-mobile');
+        var nav = document.getElementById('nav');
+        var exit = document.getElementById('exit');
+
+        menu.addEventListener('click', function(e) {
+            nav.classList.toggle('hide-mobile');
+            e.preventDefault();
+        });
+        
+        exit.addEventListener('click', function(e) {
+            nav.classList.add('hide-mobile');
+            e.preventDefault();
+        });
+       
+
+    </script>
+
+</body>
+</html>
